@@ -10,7 +10,6 @@
 }
 
 .page-content {
-    /* width: 1920px; */
     margin: 0 auto;
     min-height: 100%;
 }
@@ -90,7 +89,6 @@ h1 {
     font-weight: 400;
     font-size: 96px;
     line-height: 100px;
-    letter-spacing: 0%;
     margin-top: 0;
 }
 
@@ -384,7 +382,7 @@ footer {
     line-height: 100%;
     letter-spacing: -0.3px;
     margin-top: 22px;
-    margin-bottom: 22;
+    margin-bottom: 22px;
     margin-right: 55.5px;
 }
 
@@ -533,4 +531,23 @@ main {
 footer {
     z-index: 2;
     position: relative;
+}
+
+/* Адаптивность */
+@media (min-width: 1921px) {
+
+    .page-wrapper {
+        width: 100%;
+    }
+
+    .page-content {
+        width: 1921px;
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    .page-wrapper {
+        width: 100%;
+    }
+
 }
