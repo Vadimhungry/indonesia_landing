@@ -468,8 +468,13 @@ footer {
 }
 
 .foot-links {
+    display: flex;
+    width: 62%;
+    justify-content: space-around;
+}
+
+.foot-links div {
     padding-top: 10px;
-    padding-left: 35px;
 }
 
 .bottom {
